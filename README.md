@@ -28,4 +28,6 @@ R script run_analysis.r contains following major solutions:
     5.Saving data in .txt format by using write.table
     6.Reordering and cumputing mean by using aggregate and colnames accordingly.
     
-Result presents R script, input zipped archive and output 2 files (.txt format)    
+Result presents R script, input zipped archive and output 2 files (.txt format)  
+ file clean_merged_total.txt is the result of step #4 as per assignment
+ file ave_cleandata is the result of the step #5 as per assignment
