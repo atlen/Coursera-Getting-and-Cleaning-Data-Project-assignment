@@ -50,7 +50,7 @@ write.table(cleandata, './clean_merged_total.txt', row.names = FALSE)
 ##The independent data set contans the average of each variable for each activity and each subject. result is stored as .txt file accordingly.
 ave_cleandata <- aggregate(x=cleandata, by=list(activities=cleandata$activity, subj=cleandata$subject), FUN=mean)
 ave_cleandata <- ave_cleandata[, !(colnames(ave_cleandata) %in% c("subj", "activity"))]
-write.table(ave_cleandata, './ave_cleandata.txt', row.names = FALSE)
+write.table(ave_cleandata, './tidy.txt', row.names = FALSE)
 
 
 ##Assignment complete
